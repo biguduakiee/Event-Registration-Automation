@@ -1,0 +1,57 @@
+## Event Registration Automation
+
+## Project Overview
+This is an automated event registration workflow built with Zapier and Google Forms to simplify the registration process, streamline information collection and reduce repetitive administrative tasks.
+
+## Problem Statement
+Managing event registrations manually can be time-consuming and inefficient. Collecting participant information, organising submissions and carrying out repetitive administrative activities can create unnecessary workload.
+This automation was designed to simplify the process and improve registration management.
+
+## Objectives
+Automate the event registration process.
+Streamline the collection of participant information.
+Reduce repetitive administrative tasks.
+Improve the efficiency of registration management.
+
+## Tools and Technologies
+Zapier
+Google Forms
+Google Sheets
+Gmail
+
+## Workflow Overview
+The automation begins when a participant submits an event registration form through Google Forms. Then, Zapier detects the new submission and triggers the configured actions to process the registration information.
+
+**Trigger:** New Google Forms submission.
+
+**Actions:**
+I use formatter by Zapier to capitalize attendees names.
+The details in the form is then recorded on a spreadsheet.
+Filter by Zapier is an action that allows the Zap to continue only if Email Address and Number of Tickets are included in the Google Sheet.
+Then the attendees receive an email to notify of successful submission and that they will be sent a reminder for the event soon.
+A delay action stops the zap from moving forward by delaying until a set day and time so all attendees get a reminder email at the same time.
+The reminder email is sent at the right time.
+
+## Business Value
+- Reduces manual administrative workload.
+- Streamlines participant information collection.
+- Improves registration process efficiency.
+- Supports a more organised event management process.
+
+## Skills Demonstrated
+- Workflow Automation
+- No-Code Automation
+- Application Integration
+- Process Optimisation
+- Workflow Design and Testing
+  
+## Future Improvements
+Potential enhancements include automated registration confirmation emails, participant notifications, registration tracking and reporting.
+
+---
+
+**Project Category:** Workflow Automation
+
+**Platform:** Zapier
+
+**Project Status:** Completed
